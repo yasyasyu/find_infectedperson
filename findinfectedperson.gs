@@ -60,7 +60,7 @@ function findcontact(dat,index){
 
 function main(){
   const sheet = SpreadsheetApp.getActive().getSheetByName('log');
-  var dat = sheet.getDataRange().getValues();
+  const dat = sheet.getDataRange().getValues();
   
   const serchindex = findinfected(dat,SERCHSTUDENT);
   const contactperson = findcontact(dat,serchindex);
