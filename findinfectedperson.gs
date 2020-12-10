@@ -1,6 +1,6 @@
 const STUDENTNUMBER = 3;        //学籍番号の行数
 const CHECK = 2;                //入退室の行数
-const SERCHSTUDENT = "student050"//検索する人
+const SERCHSTUDENT = "number050"//検索する人
 
 function union(setA, setB) {
     var _union = new Set(setA)
